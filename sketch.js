@@ -40,7 +40,7 @@ function setup() {
   button3.mousePressed(() => playSong(song3));
 
   button4 = createButton('Stop Song');
-  button4.position(300, 250);
+  button4.position(300, 90);
   button4.mousePressed(() => {
     song1.stop()
     song2.stop();
